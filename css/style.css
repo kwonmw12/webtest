@@ -130,23 +130,24 @@ a:hover {
   transition: 0.5s;
   overflow: hidden;
   top: 100%;
-  left: 0;
+  left: 0; 
+  /* 여기서 left 100%로 바꾸면 C형으로 튜닝가능 */
   min-width: 80px;
   padding: 0 15px;
   background-color: white;
   z-index: 11;
 }
 /* 이건 하나씩나오는거 */
-/* #gnb li:hover ul{
-  height: 150px;
-} */
-
-/* 전체가 나오는거 */
-#gnb:hover li ul{
+#gnb li:hover ul{
   height: 150px;
 }
 
-#gnb::after{
+/* 전체가 나오는거 */
+/* #gnb:hover li ul{
+  height: 150px;
+} */
+
+/* #gnb::after{
   content: '';
   height: 0;
   transition: 0.5s;
@@ -158,4 +159,4 @@ a:hover {
 
 #gnb:hover::after{
   height: 150px;
-}
+} */
