@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ul, li{
+  list-style: none;
+}
+
+a{
+  color: black;
+}
+a:hover{
+  color: red;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.justify-content-between{
+  justify-content: space-between;
+}
+.align-items-center{
+  align-items: center;
+}
+
+.abs{
+  position: absolute;
+}
+
+.rel{
+  position: relative;
+}
+
+.h100{
+  height: 100px;
+}
+
+.h200{
+  height: 200px;
+}
+
+.h350{
+  height: 350px;
+}
+
+.zup{
+  z-index: 10000;
+}
+
+.ofh{
+  overflow: hidden;
+}
+
+.red{
+  background-color: red;
+}
+.gray{
+  background-color: gray;
+}
+.green{
+  background-color: green;
+}
+
+.d-block{
+  display: block;
+}
+
+.w1200{
+  width: 1200px;
+}
+
+.w100000{
+  width: 100000px;
+}
